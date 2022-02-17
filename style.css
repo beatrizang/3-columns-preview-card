@@ -1,0 +1,138 @@
+
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /*paragraphs*/
+    --very-light-gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+
+    /*
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--bright-orange);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    background-color: var(--very-light-gray);
+    color: var(--very-light-gray);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+}
+
+.card{
+    height: 38vw;  
+    padding: 4em;
+    line-height: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.cards h2{
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 15px 0;
+    font-size: 2em;
+}
+
+.cards p{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+
+.sedans{
+    background-color: var(--bright-orange);
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.sedans button{
+    color: var(--bright-orange);
+}
+
+.sedans button:hover{
+    cursor: pointer;
+    border: 2px solid var(--very-light-gray);
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray);
+}
+
+.suvs{
+    background-color: var(--dark-cyan);
+}
+
+.suvs button{
+    color: var(--dark-cyan);
+}
+
+.suvs button:hover{
+    cursor: pointer;
+    border: 2px solid var(--very-light-gray);
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray);
+}
+
+.luxury{
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+.luxury button{
+    color: var(--very-dark-cyan);
+}
+
+.luxury button:hover{
+    cursor: pointer;
+    border: 2px solid var(--very-light-gray);
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+}
+
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--very-light-gray);
+    border: none;
+    width: 9em;
+    border-radius: 60px 60px 60px 60px / 70px 70px 70px 70px;
+    margin-top: 5.5em;
+    padding: 1em;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--dark-cyan);
+    padding-top: 1em;
+
+}
+
+
+
+
+
+
