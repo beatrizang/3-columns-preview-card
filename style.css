@@ -56,7 +56,7 @@ body{
     flex-direction: row;
     
 }
-.cards h2{
+.cards h1{
     font-family: 'Big Shoulders Display', cursive;
     padding: 15px 0;
     font-size: 2em;
