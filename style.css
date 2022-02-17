@@ -35,6 +35,8 @@ body{
     width: 100%;
     height: 100vh;
 }
+
+
 .container{
     display: flex;
     flex-direction: column;
@@ -52,6 +54,7 @@ body{
 .cards{
     display: flex;
     flex-direction: row;
+    
 }
 .cards h2{
     font-family: 'Big Shoulders Display', cursive;
@@ -131,6 +134,28 @@ footer{
 
 }
 
+@media screen and (max-width: 1260px){
+
+   .cards {
+    flex-direction: column;   
+   }
+
+   .card{
+    height:100%;
+   }
+
+   .sedans{
+    border-radius: 0.5em 0.5em 0 0;
+   }
+
+   .luxury{
+    border-radius: 0 0 0.5em 0.5em;
+   }
+
+   button{
+    margin-top: 1em;
+   }
+}
 
 
 
